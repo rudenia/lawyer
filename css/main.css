@@ -175,7 +175,6 @@ footer {
 .footer_phone {
     font-size: 30px;
     font-weight: 400;
-    font-size: 24px;
     background-color: #07324d;
     margin-bottom: 30px;
 }
@@ -193,5 +192,4 @@ footer {
 .footer_link:hover {
     color: #ffffff;
 }
-
 
