@@ -145,7 +145,7 @@ header {
 .mission {
     background-color: #ffffff;
     border: 3px solid #07324d;
-    padding: 52px 40px 48px 52px;
+    padding: 52px 40px 52px 52px;
     color: #404040;
 }
 
@@ -166,7 +166,7 @@ header {
 /*--------Footer-------- */
 
 footer {
-    padding: 55px 0 50px;
+    padding: 55px 0 69px;
     color: #ffffff;
     font-size: 24px;
     background-color: #07324d;
