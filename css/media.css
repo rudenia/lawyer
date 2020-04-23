@@ -12,13 +12,13 @@
     }
 
     .logo_description {
-        margin-bottom: 0;
+        margin: 0;
     }
 }
 
 
-/* 768-992px */
-@media screen and (max-width: 992px) {
+/* 768-996px */
+@media screen and (max-width: 996px) {
 
     .container {
         width: 720px;
@@ -26,7 +26,6 @@
 
     .footer_description {
         font-size: 21px;
-
     }
 
 }
