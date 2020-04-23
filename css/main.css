@@ -1,0 +1,197 @@
+/*--------Спецификация-------- */
+
+.container {
+	width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+	font: 24px 'Roboto', sans-serif, serif;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+div, ul, li, p, form, b, button, a, input, textarea, img {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Roboto, Helvetica, sans-serif, serif;
+	box-sizing: border-box;
+    font-weight: 400;
+	color: #404040;
+	margin: 0;
+	padding: 0;
+    text-transform: uppercase;
+}
+
+h1 {
+	font-size: 45px;
+    margin-bottom: 31px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+button, button:hover, button:active, button:focus {
+    outline: none !important;
+}
+
+a, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+input, textarea {
+    outline: none;
+}
+
+/*--------Header-------- */
+
+header {
+    color: #fff;
+    background-color: #07324d;
+    padding: 41px 0 38px;
+    /*background: url(../img/photo.jpg) no-repeat center center/cover;*/
+}
+
+.logo {
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.logo_description {
+    margin-bottom: 10px;
+}
+
+.logo_description-color {
+    font-weight: 500;
+}
+.header_contact {
+    text-align: right;
+    margin-top: 6px;
+}
+
+.header_phone {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.header_phone:hover {
+    color: #fff;
+}
+
+.header_contact-time {
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/*--------Atention-------- */
+
+.attention {
+    padding: 49px 0 57px;
+    text-align: center;
+}
+
+.attention_title {
+    margin-bottom: 30px;
+}
+
+
+/*--------Service-------- */
+
+.service {
+    padding: 53px 0  56px;
+    background: url(../img/bg.jpg) no-repeat center;
+    text-align: center;
+    background-size: cover;
+}
+
+.offer {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.offer_description {
+    max-width: 1039px;
+}
+
+.offer_description:first-child{
+    margin-bottom: 42px;
+}
+
+/*--------About-------- */
+
+.about {
+    padding: 60px 0;
+    background-color: #edeeef;
+}
+
+.mission {
+    background-color: #ffffff;
+    border: 3px solid #07324d;
+    padding: 52px 40px 48px 52px;
+    color: #404040;
+}
+
+.mission_description {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 28px;
+}
+
+.mission_description:last-child {
+    margin-bottom: 0;
+}
+
+.mission_description__indent {
+    margin-left: 38px;
+}
+
+/*--------Footer-------- */
+
+footer {
+    padding: 55px 0 50px;
+    color: #ffffff;
+    font-size: 24px;
+    background-color: #07324d;
+}
+
+.footer_phone {
+    font-size: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #07324d;
+    margin-bottom: 30px;
+}
+
+.footer_link {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.footer_description {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.footer_link:hover {
+    color: #ffffff;
+}
+
+

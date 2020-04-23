@@ -1,0 +1,104 @@
+/* ------ Media Queries ------ */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 960px;
+    }
+
+    .logo {
+        display: table-caption;
+    }
+
+    .logo_description {
+        margin-bottom: 0;
+    }
+}
+
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+
+    .container {
+        width: 720px;
+    }
+
+    .footer_description {
+        font-size: 21px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+
+@media screen and (max-width: 987px) {
+
+}
+
+
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 520px;
+    }
+
+    .logo {
+        font-size: 30px;
+        text-align: center;
+        display: contents;
+    }
+
+    .header_phone {
+        font-size: 25px;
+    }
+
+    .header_contact-time {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .header_contact {
+        text-align: center;
+        margin-top: 15px;
+
+    }
+
+
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .mission {
+        padding: 42px 30px 38px 32px;
+    }
+
+    .mission_description {
+        font-size: 20px;
+    }
+
+    .mission_description__indent {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .offer {
+        font-size: 30px;
+    }
+
+}
