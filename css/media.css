@@ -46,7 +46,6 @@
     }
     .header_contact {
         text-align: center;
-        margin-top: 15px;
     }
     h1 {
         font-size: 40px;
@@ -79,6 +78,9 @@
         text-align: center;
         display: contents;
         margin-bottom: 10px;
+    }
+    .header_contact {
+        margin-top: 15px;
     }
     h1 {
         font-size: 37px;
