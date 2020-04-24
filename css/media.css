@@ -1,46 +1,72 @@
 /* ------ Media Queries ------ */
 
+
+/* 1200-1400px */
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 1170px;
+    }
+}
+
 /* 992-1200px */
 @media screen and (max-width: 1200px) {
 
     .container {
         width: 960px;
     }
-
     .logo {
-        display: table-caption;
+        /*display: table-caption;*/
+        font-size: 30px;
     }
-
     .logo_description {
         margin: 0;
     }
 }
 
 
-/* 768-996px */
-@media screen and (max-width: 996px) {
+/* 768-992px */
+@media screen and (max-width: 992px) {
 
     .container {
         width: 720px;
     }
-
-    .footer_description {
-        font-size: 21px;
+    .logo {
+        font-size: 22px;
     }
-
+    .header_phone {
+        font-size: 25px;
+    }
+    .header_contact-time {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .header_contact-time {
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    .header_contact {
+        text-align: center;
+        margin-top: 15px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    .offer {
+        font-size: 23px;
+    }
+    .mission_description {
+        font-size: 20px;
+    }
+    .footer_phone {
+        font-size: 20px;
+    }
+    .footer_description {
+        font-size: 18px;
+    }
 }
-
-
-@media screen and (max-width: 992px) {
-
-}
-
-
-@media screen and (max-width: 987px) {
-
-}
-
-
 
 /* 576-768px */
 @media screen and (max-width: 768px) {
@@ -48,29 +74,33 @@
     .container {
         width: 520px;
     }
-
     .logo {
         font-size: 30px;
         text-align: center;
         display: contents;
+        margin-bottom: 10px;
     }
-
-    .header_phone {
+    h1 {
+        font-size: 37px;
+    }
+    .offer {
+        font-size: 20px;
+    }
+    .mission {
+        padding: 52px 20px;
+    }
+    .mission_description {
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    .footer_phone {
         font-size: 25px;
     }
-
-    .header_contact-time {
-        font-size: 20px;
-        margin-top: 10px;
+    .footer_description {
+        font-size: 25px;
     }
-
-    .header_contact {
-        text-align: center;
-        margin-top: 15px;
-
-    }
-
-
 }
 
 /* 320-576px */
@@ -79,25 +109,38 @@
     .container {
         width: 90%;
     }
-
-    .mission {
-        padding: 42px 30px 38px 32px;
+    .logo {
+        font-size: 25px;
     }
-
-    .mission_description {
-        font-size: 20px;
-    }
-
-    .mission_description__indent {
-        margin-left: 0;
-    }
-
     h1 {
-        font-size: 40px;
+        font-size: 25px;
     }
-
+    h2 {
+        font-size: 18px;
+    }
     .offer {
-        font-size: 30px;
+        font-size: 15px;
+    }
+    .about {
+        padding: 50px 0;
+    }
+    .mission {
+        padding: 30px 20px;
+    }
+    .mission_description {
+        font-size: 15px;
+    }
+    .mission_description__indent {
+        margin: 0;
+    }
+    .footer_phone {
+        font-size: 26px;
+    }
+    .footer_link {
+        margin-top: 15px;
+    }
+    .footer_description {
+        font-size: 19px;
     }
 
 }
